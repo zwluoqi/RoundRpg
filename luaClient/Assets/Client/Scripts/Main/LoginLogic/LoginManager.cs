@@ -22,11 +22,12 @@ public class LoginManager : FsmControllerBase<LoginStateEnum> {
 	public override void InitState ()
 	{
 		base.InitState ();
-		allStates [LoginStateEnum.CheckVersion] = new LoginCheckVersionState (LoginStateEnum.CheckVersion, this);
-		allStates [LoginStateEnum.DownLoad] = new LoginDownLoadState (LoginStateEnum.DownLoad, this);
+//		allStates [LoginStateEnum.CheckVersion] = new LoginCheckVersionState (LoginStateEnum.CheckVersion, this);
+//		allStates [LoginStateEnum.DownLoad] = new LoginDownLoadState (LoginStateEnum.DownLoad, this);
+//		
 		allStates [LoginStateEnum.Main] = new LoginMainState (LoginStateEnum.Main, this);
 
-		SwitchState (LoginStateEnum.CheckVersion);
+		SwitchState (LoginStateEnum.Main);
 
 		Main.Instance.updateEvent += UpdateState;
 	}

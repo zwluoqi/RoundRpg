@@ -39,13 +39,13 @@ public class ResourceManager:MonoBehaviour
 			resPath+=".ab";
 		}
 
-		if (AssetFileToolManager.updatedStaticAssetCells.ContainsKey (resPath)) {
-			return ResUseMode.PERSIS_STATIC_RESOURCE;
-		}
-
-		if (AssetFileToolManager.currentDynamicAssetFileTool.assetCells.ContainsKey (resPath)) {
-			return ResUseMode.PERSIS_DYNAMIC_RESOURCE;
-		}
+//		if (AssetFileToolManager.updatedStaticAssetCells.ContainsKey (resPath)) {
+//			return ResUseMode.PERSIS_STATIC_RESOURCE;
+//		}
+//
+//		if (AssetFileToolManager.currentDynamicAssetFileTool.assetCells.ContainsKey (resPath)) {
+//			return ResUseMode.PERSIS_DYNAMIC_RESOURCE;
+//		}
 
 		return ResUseMode.RESOURCE;
 	}

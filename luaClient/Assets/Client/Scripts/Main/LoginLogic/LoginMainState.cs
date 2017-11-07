@@ -15,13 +15,13 @@ public class LoginMainState :LoginState{
 	{
 		base.Enter ();
 
-		loginManager.DestroyCheckUI ();
+//		loginManager.DestroyCheckUI ();
 
-		AssetFileToolManager.ReadCurrentAssetFile ();
-		AssetFileToolManager.UpdateStaticAssets ();
-		ResourceManager.Instance.staticAssetBundleManager.UpdateAssetBundleMainfestInfo (PathTool.CurrentVersionStaticResDataPath, AssetFileToolManager.staticMainFestPath);
-		ResourceManager.Instance.dynamicAssetBundleManager.UpdateAssetBundleMainfestInfo (PathTool.CurrentVersionDynamicResDataPath, AssetFileToolManager.dynamicMainFestPath);
-
+//		AssetFileToolManager.ReadCurrentAssetFile ();
+//		AssetFileToolManager.UpdateStaticAssets ();
+//		ResourceManager.Instance.staticAssetBundleManager.UpdateAssetBundleMainfestInfo (PathTool.CurrentVersionStaticResDataPath, AssetFileToolManager.staticMainFestPath);
+//		ResourceManager.Instance.dynamicAssetBundleManager.UpdateAssetBundleMainfestInfo (PathTool.CurrentVersionDynamicResDataPath, AssetFileToolManager.dynamicMainFestPath);
+//
 		Main.Instance.StopLoginLogic ();
 		Main.Instance.StartLuaManager ();
 	}
