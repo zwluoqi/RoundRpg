@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: bedaa66afcf3b3a47bf9a648234b2f16
+timeCreated: 1430688035
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Background 2
+    100002: Emission
+    100004: //RootNode
+    100006: Plane025
+    100008: Plane027
+    100010: Plane028
+    100012: Plane029
+    100014: Plane030
+    100016: Text020
+    100018: Text035
+    100020: Text036
+    100022: Text037
+    100024: Text038
+    100026: Background 004
+    100028: Plane021
+    100030: Plane022
+    100032: Plane023
+    100034: Plane024
+    100036: Text017
+    100038: Text018
+    400000: Background 2
+    400002: Emission
+    400004: //RootNode
+    400006: Plane025
+    400008: Plane027
+    400010: Plane028
+    400012: Plane029
+    400014: Plane030
+    400016: Text020
+    400018: Text035
+    400020: Text036
+    400022: Text037
+    400024: Text038
+    400026: Background 004
+    400028: Plane021
+    400030: Plane022
+    400032: Plane023
+    400034: Plane024
+    400036: Text017
+    400038: Text018
+    2300000: Background 2
+    2300002: Emission
+    2300004: Plane025
+    2300006: Plane027
+    2300008: Plane028
+    2300010: Plane029
+    2300012: Plane030
+    2300014: Text020
+    2300016: Text035
+    2300018: Text036
+    2300020: Text037
+    2300022: Text038
+    2300024: Background 004
+    2300026: Plane021
+    2300028: Plane022
+    2300030: Plane023
+    2300032: Plane024
+    2300034: Text017
+    2300036: Text018
+    3300000: Background 2
+    3300002: Emission
+    3300004: Plane025
+    3300006: Plane027
+    3300008: Plane028
+    3300010: Plane029
+    3300012: Plane030
+    3300014: Text020
+    3300016: Text035
+    3300018: Text036
+    3300020: Text037
+    3300022: Text038
+    3300024: Background 004
+    3300026: Plane021
+    3300028: Plane022
+    3300030: Plane023
+    3300032: Plane024
+    3300034: Text017
+    3300036: Text018
+    4300000: Background 2
+    4300002: Plane025
+    4300004: Text020
+    4300006: Plane027
+    4300008: Emission
+    4300010: Text035
+    4300012: Plane028
+    4300014: Text036
+    4300016: Plane029
+    4300018: Text037
+    4300020: Plane030
+    4300022: Text038
+    4300024: Text017
+    4300026: Text018
+    4300028: Plane021
+    4300030: Plane022
+    4300032: Plane023
+    4300034: Plane024
+    4300036: Background 004
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

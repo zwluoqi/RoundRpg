@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5BDB9057-FCA9-0C95-618F-95AD103874D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.4.1f1/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.4.1f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Client\Res\Effect\DynamicElements_Effects\scripts\destroyThisTimed.js" />
+     <Compile Include="Assets\Client\Res\Effect\DynamicElements_Effects\scripts\rampDownParticle.js" />
+     <Compile Include="Assets\Client\Res\Effect\b\Scripts\ObjectSpin.js" />
+     <Compile Include="Assets\Client\Res\Effect\b\Scripts\PrefabLooping.js" />
+     <None Include="Assets\Resources\Lua\logic.battle.battlemanager.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection SH .shader" />
+     <None Include="Assets\Resources\Lua\unityengine.color.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim .shader" />
+     <None Include="Assets\Resources\Lua\globalization.zh.string_table.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.common_skill.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.page.main_ui.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.ray.lua.txt" />
+     <None Include="Assets\Resources\Lua\socket.mbox.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.mesh_animation.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.init.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray SH .shader" />
+     <None Include="Assets\Resources\Lua\logic.stage.stagebase.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.trigger.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.wire_format.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.copy_obstacle.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Resources\Lua\socket.smtp.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.scene_point.lua.txt" />
+     <None Include="Assets\Resources\Lua\ltn12.lua.txt" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Legacy\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.commone_behaviour.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.building.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.battleengineselect.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.factory.lua.txt" />
+     <None Include="Assets\Client\Dependence\DOTween\DOTween43.xml" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.battleengine.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim SH .shader" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.fsm.viewfsmfinishstate.lua.txt" />
+     <None Include="Assets\Resources\Lua\system.reflection.bindingflags.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.ai.eactorbecollection.lua.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.page.battle_ui.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.vector4.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.type_checkers.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.text_format.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.mathf.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_release.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.battletools.lua.txt" />
+     <None Include="Assets\Resources\Lua\typeof.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray .shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.copy.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.inputdata.inputroom.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.init.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.pagemanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\globalization.en.string_table.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis .shader" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.ai.eactorbehivour.eactorbehivour.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.tool.timeeventhandler.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.scene.lua.txt" />
+     <None Include="Assets\Resources\Lua\misc.utf8.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.skill.eactorskillrelease.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_release_summon.lua.txt" />
+     <None Include="Assets\Resources\BundleList\ios\dynamicassetfiletool.txt" />
+     <None Include="Assets\Resources\Lua\logic.logic.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.fsm.viewfsmloadingstate.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_Transparent.shader" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.fsm.init.lua.txt" />
+     <None Include="Assets\Client\Res\Effect\shader\Particle Add.shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.common_effect.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis SH .shader" />
+     <None Include="Assets\Resources\Lua\unityengine.vector2.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.buff.eactorbuff.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_modelscale.lua.txt" />
+     <None Include="Assets\Resources\Lua\list.lua.txt" />
+     <None Include="Assets\Resources\Lua\misc.misc.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.eactorskillmanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.raycasthit.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.decoder.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.basemodel.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.simple_state_machine.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.init.lua.txt" />
+     <None Include="Assets\Client\lua_config.txt" />
+     <None Include="Assets\Resources\BundleList\ios\staticassetfiletool.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_release_project.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.ai.eactorbemanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_summon.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.protobuf.lua.txt" />
+     <None Include="Assets\Resources\Lua\misc.functions.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.exportengineemptyevent.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse VertexCol .shader" />
+     <None Include="Assets\Resources\Lua\socket.lua.txt" />
+     <None Include="Assets\Client\DynamicResources\Empty\empty.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Resources\BundleList\ios\staticmainfest.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse .shader" />
+     <None Include="Assets\Resources\BundleList\ios\dynamicmainfest.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.model.vactormodel.vactormodel.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.camera.battlecamera.lua.txt" />
+     <None Include="Assets\Resources\Lua\system.timer.lua.txt" />
+     <None Include="Assets\Resources\Lua\socket.url.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.eactoraimanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.skill.eactorskillimmediate.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.plane.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.ai_function.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Reflection .shader" />
+     <None Include="Assets\Resources\Lua\socket.ftp.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.inputdata.battledatautil.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Emis .shader" />
+     <None Include="Assets\Client\Res\Effect\shader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_release_effect_bone.lua.txt" />
+     <None Include="Assets\Resources\Lua\event.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.battle_config.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.obstacle.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.stateful.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.stage.stagefuben.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse ZwriteOff .shader" />
+     <None Include="Assets\Resources\Lua\logic.resources.localresourcemanager.lua.txt" />
+     <None Include="Assets\StreamingAssets\ios\dynamicmainfest.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_res.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\StreamingAssets\ios\staticmainfest.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.common_config.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.quaternion.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_born.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT.shader" />
+     <None Include="Assets\StreamingAssets\ios\staticassetfiletool.txt" />
+     <None Include="Assets\Resources\Lua\eventsystem.eventmanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\system.coroutine.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.model.vactorskill.vactorskill.lua.txt" />
+     <None Include="Assets\Client\Dependence\DOTween\DOTween46.xml" />
+     <None Include="Assets\Resources\Lua\socket.http.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT Upgrade from 4 to 5.txt" />
+     <None Include="Assets\Resources\Lua\logic.stage.stagemanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.fsmstate.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.uimanager.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim .shader" />
+     <None Include="Assets\Resources\Lua\system.valuetype.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim SH .shader" />
+     <None Include="Assets\Resources\Lua\protobuf.listener.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.vector3.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse .shader" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.fsm.viewfsmrunningstate.lua.txt" />
+     <None Include="Assets\Resources\Lua\cjson.util.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero.lua.txt" />
+     <None Include="Assets\Client\Dependence\DOTween\readme.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.inputdata.battledatacreater.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray SH .shader" />
+     <None Include="Assets\Resources\Lua\init.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_animation.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.float_time.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.model.vactorai.vactorai.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.descriptor.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.animation_resource.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.uguieventlistener.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.battle_type.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.common_attribute.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Rim .shader" />
+     <None Include="Assets\Resources\Lua\framework.init.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.fsmcontroller.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.prop.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.functions.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.common.enumdefine.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.bounds.lua.txt" />
+     <None Include="Assets\Resources\Lua\lpeg.re.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.layermask.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Decal Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Color Diffuse Rim .shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.commone_behaviour_collection.lua.txt" />
+     <None Include="Assets\StreamingAssets\ios\dynamicassetfiletool.txt" />
+     <None Include="Assets\Resources\Lua\slot.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.middleclass.lua.txt" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.popmanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.battleview.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.fsm.viewfsmemptystate.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_move.lua.txt" />
+     <None Include="Assets\Resources\Lua\tolua.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.exportengineevent.lua.txt" />
+     <None Include="Assets\Resources\Lua\mime.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.inputdata.inputactor.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.resources.localresourceitem.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.touch.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.trigger_collection.lua.txt" />
+     <None Include="Assets\ToLua\readme.txt" />
+     <None Include="Assets\Resources\Lua\misc.strict.lua.txt" />
+     <None Include="Assets\Resources\Lua\socket.headers.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.boxmanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.page.page_ui.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.commone_behaviour_collection_condition.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.skill.eactorskill.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_release_buff.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.containers.lua.txt" />
+     <None Include="Assets\Resources\Lua\protol.person_pb.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.copy_enemy.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.ui.page.hero_desc_pop_ui.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis FogOff .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse .shader" />
+     <None Include="Assets\Resources\Lua\logic.tool.unitytools.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.stack.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray .shader" />
+     <None Include="Assets\Resources\Lua\main.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color .shader" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill_trigger.lua.txt" />
+     <None Include="Assets\Resources\Lua\eventsystem.init.lua.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Resources\Lua\common.class.lua.txt" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Resources\Lua\logic.dict.hero_skill.lua.txt" />
+     <None Include="Assets\Client\Dependence\DOTween\DOTween50.xml" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.eactor.lua.txt" />
+     <None Include="Assets\Resources\Lua\unityengine.time.lua.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_TransparentNoZ.shader" />
+     <None Include="Assets\Resources\Lua\socket.tp.lua.txt" />
+     <None Include="Assets\Resources\Lua\framework.fw_facade.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.view.model.vactor.lua.txt" />
+     <None Include="Assets\Resources\Lua\protobuf.encoder.lua.txt" />
+     <None Include="Assets\Resources\Lua\common.functions.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.tool.timeeventmanager.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.skill.eactorskillmove.lua.txt" />
+     <None Include="Assets\Resources\Lua\logic.battle.engine.model.ai.eactorcondition.eactorcondition.lua.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.4.1f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.4.1f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Plugins/Debugger.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

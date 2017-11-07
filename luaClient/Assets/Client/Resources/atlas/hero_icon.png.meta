@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: ac6b699cd9176437eb22cc7c24250a71
+timeCreated: 1488441056
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hero_icon_20
+    21300002: hero_icon_12
+    21300004: hero_icon_16
+    21300006: hero_icon_15
+    21300008: hero_icon_18
+    21300010: hero_icon_26
+    21300012: hero_icon_11
+    21300014: hero_icon_5
+    21300016: hero_icon_8
+    21300018: hero_icon_29
+    21300020: hero_icon_10
+    21300022: hero_icon_6
+    21300024: hero_icon_24
+    21300026: hero_icon_28
+    21300028: hero_icon_3
+    21300030: hero_icon_9
+    21300032: hero_icon_7
+    21300034: hero_icon_21
+    21300036: hero_icon_22
+    21300038: hero_icon_2
+    21300040: hero_icon_25
+    21300042: hero_icon_19
+    21300044: hero_icon_1
+    21300046: hero_icon_23
+    21300048: hero_icon_13
+    21300050: hero_icon_14
+    21300052: hero_icon_4
+    21300054: hero_icon_17
+    21300056: hero_icon_27
+    21300058: dunzhan_1
+    21300060: mushi_1
+    21300062: fashi_1
+    21300064: zhujiao_1
+    21300066: hero_icon_14
+    21300068: hero_icon_27
+    21300070: hero_icon_17
+    21300072: hero_icon_1
+    21300074: hero_icon_3
+    21300076: hero_icon_13
+    21300078: hero_icon_23
+    21300080: hero_icon_4
+    21300082: hero_icon_19
+    21300084: hero_icon_25
+    21300086: hero_icon_2
+    21300088: hero_icon_22
+    21300090: hero_icon_21
+    21300092: hero_icon_7
+    21300094: hero_icon_9
+    21300096: hero_icon_28
+    21300098: hero_icon_24
+    21300100: hero_icon_6
+    21300102: hero_icon_10
+    21300104: hero_icon_29
+    21300106: hero_icon_8
+    21300108: hero_icon_5
+    21300110: hero_icon_11
+    21300112: hero_icon_26
+    21300114: hero_icon_18
+    21300116: hero_icon_15
+    21300118: hero_icon_12
+    21300120: hero_icon_16
+    21300122: hero_icon_20
+    21300124: zhujiao_1
+    21300126: dunzhan_1
+    21300128: fashi_1
+    21300130: mushi_1
+    21300132: equip_icon_101
+    21300134: 0009_00_00
+    21300136: 0002_00_00
+    21300138: 0717_00_00
+    21300140: 0025_00_00
+    21300142: 0006_02_00
+    21300144: 0445_00_00
+    21300146: 0082_00_00
+    21300148: 0716_00_00
+    21300150: 0000_00_00
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0002_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0082_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0025_00_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0009_00_00
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0716_00_00
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0000_00_00
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0717_00_00
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0006_02_00
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 129
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 0445_00_00
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: d5134d588aa454e16afacc3dc16ab14a
+timeCreated: 1488167796
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: equip_icon_115
+    21300002: equip_icon_118
+    21300004: equip_icon_110
+    21300006: equip_icon_124
+    21300008: equip_icon_120
+    21300010: equip_icon_123
+    21300012: equip_icon_104
+    21300014: equip_icon_116
+    21300016: equip_icon_122
+    21300018: equip_icon_117
+    21300020: equip_icon_121
+    21300022: equip_icon_108
+    21300024: equip_icon_106
+    21300026: equip_icon_119
+    21300028: equip_icon_113
+    21300030: equip_icon_105
+    21300032: equip_icon_111
+    21300034: equip_icon_109
+    21300036: equip_icon_112
+    21300038: equip_icon_102
+    21300040: equip_icon_103
+    21300042: equip_icon_114
+    21300044: equip_icon_101
+    21300046: equip_icon_107
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: equip_icon_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_104
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_108
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_106
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 101
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_107
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: equip_icon_101
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

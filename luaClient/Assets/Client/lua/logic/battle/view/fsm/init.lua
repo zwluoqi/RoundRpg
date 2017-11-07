@@ -1,0 +1,5 @@
+require("logic/battle/view/fsm/viewfsmfinishstate")
+require("logic/battle/view/fsm/viewfsmloadingstate")
+require("logic/battle/view/fsm/viewfsmemptystate")
+require("logic/battle/view/fsm/viewfsmrunningstate")
+require("logic/common/fsmcontroller")

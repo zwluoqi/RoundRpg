@@ -1,0 +1,32 @@
+Upgrade from Unity 4.6 to 5.1
+
+1. In Unity 5 remove the old "UNOShader" directory.
+2. Please do a fresh install.
+3. Open up your scene, all materials will be pink.
+4. Select an object that has a pink material, shaders will be missing.
+5. Select the material that is pink and in the inspector select shader: "UNOShader/UNLIT" from the pulldown menu.
+6. A message will pop up under the material Editor 
+"Found shader info from Unity 4.6, Restore it"
+
+*** Hitting the "Cancel" button. Will remove old info and assume
+you want to create a new shader.
+
+7. Hit the "Restore" button. (this will recreate a new shader that had similar values as your old project.
+
+Note. 
+Property names have changed, but I tried to reconnect as much as I could to make the upgrade path easier.
+Some stuff I just could not connect easily such as UV animation data. Some values here and there but most did carry over.
+
+
+******************* Technical junk **************************
+
+------ Shader Data ---------
+Some of the data I use to restore is located under your object in component "UNOShader_Helper". Under the Materials List there a variable called "Using Shader", this string saves the last UNOshader used by this material.   If the value is empty, I can't really store anything, so make sure your old project has something in it. If it does not just click a property on and off and will autofill.
+
+------ Properties ----------
+Properties have been renamed to follow unity standards such
+_DiffuseTex is now _MainTex,_GlowTex  is now _EmissionMap, etc. 
+
+You can hover over the question mark icon to see property names or click on it to access online doc.
+
+

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{58C41A45-6152-247A-C114-FD2B99BFF7CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_4;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Editor\AFPSCounterEditor.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Editor\UIUtils.cs" />
+     <Compile Include="Assets\Client\Dependence\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPAtlasBuilder.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPDropWindow.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPInstanceEditor.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPReferenceReplacerWindow.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPSettings.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPSpriteImportData.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\Editor\SPTools.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Editor\Custom\CustomSettings.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_LuaInterface_EventObject.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_LuaInterface_LuaConstructor.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_LuaInterface_LuaField.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_LuaInterface_LuaMethod.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_LuaInterface_LuaProperty.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_System_Delegate.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_System_Enum.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_System_Object.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_System_String.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_System_Type.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_UnityEngine_GameObject.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_UnityEngine_Input.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\Extend\ToLua_UnityEngine_Object.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\LuaUtil.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\ToLuaExport.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\ToLuaMenu.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\ToLuaMenuEx.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Editor\ToLuaTree.cs" />
+     <Compile Include="Assets\Client\Editor\Excle\ExcelHelper.cs" />
+     <Compile Include="Assets\Client\Editor\Excle\ExcelTableReader.cs" />
+     <Compile Include="Assets\Client\Editor\Excle\testExcel.cs" />
+     <Compile Include="Assets\Client\Editor\HelpMenu.cs" />
+     <Compile Include="Assets\Client\Editor\ModelAnim2ExcleTool.cs" />
+     <Compile Include="Assets\Client\Editor\PickAnim.cs" />
+     <Compile Include="Assets\Client\Editor\Totem_H1\Totem_H1.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\AssetBundleNameSet.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\BundleManagerWindow.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\BundleTools.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\GameObjectPoolManagerInspector.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\LuaBundleBuilder.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\Editor\ResourceManagerInspector.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\EventDelegateEditor.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\PropertyReferenceDrawer.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\SelectSprite.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\UGUIAtlasInspector.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\UGUIEditorTools.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\UGUISetting.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\Editor\UGUISpriteIspector.cs" />
+     <None Include="Assets\Client\Resources\BundleList\ios\dynamicassetfiletool.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray SH .shader" />
+     <None Include="Assets\Client\Resources\BundleList\ios\staticassetfiletool.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse VertexCol SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Legacy\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Client\Dependence\Tolua\ToLua\1.0.6.285.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Client\Resources\Shaders\CameraMask.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis .shader" />
+     <None Include="Assets\Client\Resources\empty\empty.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_Transparent.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\Dissolve_TexturCoords.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloomInnerBar.shader" />
+     <None Include="Assets\Client\Resources\Shaders\Normal-Bumped.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Emis SH .shader" />
+     <None Include="Assets\Client\lua_config.txt" />
+     <None Include="Assets\Client\Resources\BundleList\ios\dynamicmainfest.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse VertexCol .shader" />
+     <None Include="Assets\Client\Resources\Shaders\CustomSkin.shader" />
+     <None Include="Assets\Client\DynamicResources\empty\empty.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Client\Resources\Shaders\CustomClipIconColorless.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis FogOff SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\RenderShadow.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Emis .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse SH .shader" />
+     <None Include="Assets\Client\Resources\BundleList\ios\staticmainfest.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse ZwriteOff .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloodBarbias.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT Upgrade from 4 to 5.txt" />
+     <None Include="Assets\Client\Dependence\Simple Sprite Packer\Changelog.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Simple Sprite Packer\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\MaskColor.shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Client\Resources\Shaders\CustomLeaf.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloomBar.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Reflection SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\CustomClipIcon.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Color Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Decal Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Color Diffuse Rim .shader" />
+     <None Include="Assets\Client\Resources\Shaders\toonoutline.shader" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Client\Dependence\Tolua\ToLua\readme.txt" />
+     <None Include="Assets\Client\Dependence\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis FogOff .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Decal Reflection SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_TransparentNoZ.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse ZwriteOff SH .shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="AssetStoreTools">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+ </Reference>
+ <Reference Include="AssetStoreToolsExtra">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
+ </Reference>
+ <Reference Include="TexturePackerImporter">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Tolua/Plugins/Debugger.dll</HintPath>
+ </Reference>
+ <Reference Include="UNOShaderUNLIT">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/UNOShader/UNLIT/Editor/UNOShaderUNLIT.dll</HintPath>
+ </Reference>
+ <Reference Include="Excel">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/EditorPlugins/Excel.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/EditorPlugins/NPOI.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/EditorPlugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity5.4.4p3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity5.4.4p3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity5.4.4p3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity5.4.4p3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{4AADF8DD-A703-7F11-14C0-B6F8CEB7E73F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

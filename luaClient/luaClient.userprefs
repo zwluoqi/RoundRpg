@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/Client/Scripts/Main/Main.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Scripts/AssetSupport/AssetBundle/AssetBundleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Scripts/AssetSupport/AssetBundle/Editor/BundleManagerWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Scripts/AssetSupport/AssetBundle/Editor/BundleTools.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Editor/Totem_H1/Totem_H1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Dependence/Tolua/ToLua/Editor/ToLuaMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Dependence/Tolua/ToLua/Editor/ToLuaExport.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Dependence/Tolua/Editor/Custom/CustomSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets/Client/Dependence/Tolua/Source/LuaConst.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Scripts/UI/UGUILuaEventListener.cs" line="43" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/ModelAnim2ExcleTool.cs" line="109" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/ModelAnim2ExcleTool.cs" line="138" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Editor/ModelAnim2ExcleTool.cs" line="128" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Scripts/AssetSupport/UGUIAtlasHelper/Editor/UGUIEditorTools.cs" line="1058" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Scripts/AssetSupport/UGUIAtlasHelper/Editor/UGUIEditorTools.cs" line="1070" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Scripts/AssetSupport/UGUIAtlasHelper/Editor/ImageIspector.cs" line="85" column="1" />
+      <Breakpoint file="/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Scripts/AssetSupport/UGUIAtlasHelper/Editor/ImageIspector.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

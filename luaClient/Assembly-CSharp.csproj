@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4AADF8DD-A703-7F11-14C0-B6F8CEB7E73F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_4;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Examples\APITester.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\AFPSCounter.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\CountersData\BaseCounterData.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\CountersData\DeviceInfoCounterData.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\CountersData\FPSCounterData.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\CountersData\MemoryCounterData.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Enums\FPSLevel.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Enums\OperationMode.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Label\DrawableLabel.cs" />
+     <Compile Include="Assets\Client\Dependence\AdvancedFPSCounter\Scripts\Label\LabelAnchor.cs" />
+     <Compile Include="Assets\Client\Dependence\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Client\Dependence\LeanTween\ILeanTween.cs" />
+     <Compile Include="Assets\Client\Dependence\LeanTween\LTDescr.cs" />
+     <Compile Include="Assets\Client\Dependence\LeanTween\LeanAudio.cs" />
+     <Compile Include="Assets\Client\Dependence\LeanTween\LeanTween.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\SPAction.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\SPActionType.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\SPInstance.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\SPSpriteInfo.cs" />
+     <Compile Include="Assets\Client\Dependence\Simple Sprite Packer\Scripts\UITexturePacker.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\AnimControllerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\ByteBufferWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_Core_ABSAnimationComponentWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_DOTweenAnimationWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_DOTweenWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_EaseWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_LoopTypeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_PathModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_PathTypeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_RotateModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_SequenceWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_TweenWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DG_Tweening_TweenerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DelegateFactory.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DynamicLoadASyncManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\DynamicLoadASyncerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\GameObjectPoolManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\I_ActorTransWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\IconManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LTBezierPathWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LTBezierWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LTDescrImplWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LTEventWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LTSplineWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LeanAudioWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LeanTweenTypeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LeanTweenWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LuaBehaviourWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LuaBinder.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\LuaInterface_DebuggerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\MathUtilWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\NavUtilWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\ParticleExchangeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\RandomUtilWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\ResourceManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\SceneLoadManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\SceneRelationWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\StringUtilWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\Texture2DManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\TexturePackerManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UGUIAtlasManagerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UGUIEventListenerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UGUILuaEventListenerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UILuaBehaviourWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AnimationBlendModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AnimationClipWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AnimationStateWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AnimationWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AnimatorWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ApplicationWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AssetBundleWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AsyncOperationWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AudioClipWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_AudioSourceWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_BehaviourWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_BlendWeightsWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_BoxColliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_CameraClearFlagsWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_CameraWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_CanvasWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_CapsuleColliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_CharacterControllerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ColliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ComponentWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_EventSystems_BaseRaycasterWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_EventSystems_EventTriggerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_EventSystems_UIBehaviourWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_Experimental_Director_DirectorPlayerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_GameObjectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_InputWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_KeyCodeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_LightTypeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_LightWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_MaterialWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_MeshColliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_MeshRendererWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_MonoBehaviourWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ParticleSystemWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_PhysicsWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_PlayModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_QualitySettingsWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_QueueModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RectTransformUtilityWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RectTransformWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RenderSettingsWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RenderTextureWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RendererWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_RigidbodyWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ScreenWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_ShaderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_SkinnedMeshRendererWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_SleepTimeoutWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_SpaceWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_SphereColliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_SpriteWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_Texture2DWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_TextureWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_TimeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_TrackedReferenceWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_TransformWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ButtonWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ContentSizeFitterWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_DropdownWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_GraphicRaycasterWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_GraphicWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_HorizontalLayoutGroupWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_HorizontalOrVerticalLayoutGroupWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ImageWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_InputFieldWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_LayoutElementWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_LayoutGroupWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_LoopHorizontalScrollRectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_LoopScrollRectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_LoopVerticalScrollRectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_MaskWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_MaskableGraphicWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_RectMask2DWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ScrollRectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ScrollbarWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_SelectableWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_SliderWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_TextWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ToggleGroupWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_ToggleWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_UI_VerticalLayoutGroupWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_WWWWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\Generate\UnityEngine_WrapModeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\Source\LuaConst.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_LuaFieldWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_LuaMethodWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_LuaOutWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\LuaInterface_LuaPropertyWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_ArrayWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_Generic_DictionaryWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_Generic_KeyValuePairWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_Generic_ListWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_IEnumeratorWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_DelegateWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_EnumWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_NullObjectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_ObjectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_StringWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\System_TypeWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\UnityEngine_CoroutineWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\BaseType\UnityEngine_ObjectWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaAttributes.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaBaseRef.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaBeatEvent.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaDLL.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaEvent.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaException.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaFileUtils.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaFunction.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaMethodCache.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaMisc.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaState.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaStatePtr.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaStatic.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaTable.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaThread.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\LuaUnityLibs.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\ObjectPool.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\ObjectTranslator.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\ToLua.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Core\TypeChecker.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\01_HelloWorld\HelloWorld.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\02_ScriptsFromFile\ScriptsFromFile.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\03_CallLuaFunction\CallLuaFunction.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\05_LuaCoroutine\TestCoroutine.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\06_LuaCoroutine2\TestCoroutine2.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\07_LuaThread\TestLuaThread.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\08_AccessingArray\AccessingArray.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccountWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_KeyCollectionWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\System_Collections_Generic_Dictionary_int_TestAccount_ValueCollectionWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\System_Collections_Generic_KeyValuePair_int_TestAccountWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\TestAccountWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\09_Dictionary\UseDictionary.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\10_Enum\AccessingEnum.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\11_Delegate\TestDelegate.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\11_Delegate\TestEventListener.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\11_Delegate\TestEventListenerWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\12_GameObject\TestGameObject.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\13_CustomLoader\TestCustomLoader.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\14_Out\TestOutArg.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\15_ProtoBuffer\TestProtoBuffer.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\15_ProtoBuffer\TestProtol.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\15_ProtoBuffer\TestProtolWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\16_Int64\TestInt64.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\17_Inherit\TestInherit.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\18_Bundle\TestABLoader.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\19_cjson\TestCJson.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\20_utf8\TestUTF8.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\21_String\TestString.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\22_Reflection\TestReflection.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\23_List\UseList.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\Performance\TestPerformance.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestErrorStack\TestInstantiate.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestErrorStack\TestInstantiate2.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestErrorStack\TestLuaStack.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestOverload\TestExportWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestOverload\TestExport_SpaceWrap.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Examples\TestOverload\TestOverload.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Misc\LuaClient.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Misc\LuaCoroutine.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Misc\LuaLooper.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Misc\LuaResLoader.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Reflection\LuaConstructor.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Reflection\LuaField.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Reflection\LuaMethod.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Reflection\LuaProperty.cs" />
+     <Compile Include="Assets\Client\Dependence\Tolua\ToLua\Reflection\LuaReflection.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\Bin\Scripts\UNOShaderData.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\Bin\Scripts\UNOShaderHelper.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\Bin\Scripts\UNOShaderUVAnimate.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\Bounce.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\CameraPan.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\ColorPropertyChange.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\DiffuseDecalTint.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\FloatPropertyChange.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\ShadowColorChange.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNLIT\Samples\Scripts\SpinY.cs" />
+     <Compile Include="Assets\Client\Dependence\UNOShader\UNOShaderSettings.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetBundleManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetCell.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetFileTool.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetFileToolManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetResDownload\AssetResDownloadTool.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetResDownload\AssetResSignalDownloadTool.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetResDownload\DynamicResDownload.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\AssetResDownload\StaticResDownload.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\InnerResourceManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\AssetBundle\TestAb.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\GameObjectPool\GameObjectPool.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\GameObjectPool\GameObjectPoolId.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\GameObjectPool\GameObjectPoolManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\ResourceManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\SceneLoadManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\Texture\IconManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\Texture\LoadTextureCell.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\Texture\Texture2DManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\TexturePackerHelper\TexturePacker.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\TexturePackerHelper\TexturePackerManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\BetterList.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\EventDelegate.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\PropertyReference.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\SpriteEntry.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\UGUIAtlas.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\UGUIAtlasManager.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\UGUIMath.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\UGUISprite.cs" />
+     <Compile Include="Assets\Client\Scripts\AssetSupport\UGUIAtlasHelper\UGUITools.cs" />
+     <Compile Include="Assets\Client\Scripts\ByteBuffer.cs" />
+     <Compile Include="Assets\Client\Scripts\Common\DefineDelegate.cs" />
+     <Compile Include="Assets\Client\Scripts\Common\FsmControllerBase.cs" />
+     <Compile Include="Assets\Client\Scripts\Common\FsmStateBase.cs" />
+     <Compile Include="Assets\Client\Scripts\File\FileUtils.cs" />
+     <Compile Include="Assets\Client\Scripts\GameConfig.cs" />
+     <Compile Include="Assets\Client\Scripts\Lua\LuaBehaviour.cs" />
+     <Compile Include="Assets\Client\Scripts\Lua\LuaManager.cs" />
+     <Compile Include="Assets\Client\Scripts\Lua\SimpleLuaResLoader.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginLogic\LoginCheckVersionState.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginLogic\LoginDownLoadState.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginLogic\LoginMainState.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginLogic\LoginManager.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginLogic\LoginState.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\LoginUI\CheckResUI.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\Main.cs" />
+     <Compile Include="Assets\Client\Scripts\Main\ReadyConfig.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\ColorArgsExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\LightArgsExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\ParticleArgsExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\ParticleColorArgsExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\ParticleExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\SceneCameraController.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\SceneRelation.cs" />
+     <Compile Include="Assets\Client\Scripts\SceneExchange\SystemArgsExchange.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\AnimController.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\AtomicLong.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\I_ActorTrans.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\JRandom.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\MathUtil.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\NavUtil.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\RandomUtil.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\StringUtil.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\UIUtil.cs" />
+     <Compile Include="Assets\Client\Scripts\Tool\VisibleRoot.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\LoopHorizontalScrollRect.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\LoopScrollRect.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\LoopVerticalScrollRect.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UGUIEventListener.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UGUILuaEventListener.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UILongPressButton.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UILuaBehaviour.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UIPage.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UITextGradient.cs" />
+     <Compile Include="Assets\Client\Scripts\UI\UITextOutline.cs" />
+     <Compile Include="Assets\Client\Scripts\VersionPathTool\PathTool.cs" />
+     <Compile Include="Assets\Client\Scripts\VersionPathTool\ServerPathTool.cs" />
+     <Compile Include="Assets\Client\Scripts\VersionPathTool\VersionCell.cs" />
+     <Compile Include="Assets\Client\Scripts\VersionPathTool\VersionTool.cs" />
+     <None Include="Assets\Client\Resources\BundleList\ios\dynamicassetfiletool.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray SH .shader" />
+     <None Include="Assets\Client\Resources\BundleList\ios\staticassetfiletool.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse VertexCol SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Legacy\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Client\Dependence\Tolua\ToLua\1.0.6.285.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\Client\Resources\Shaders\CameraMask.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis .shader" />
+     <None Include="Assets\Client\Resources\empty\empty.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_Transparent.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\Dissolve_TexturCoords.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloomInnerBar.shader" />
+     <None Include="Assets\Client\Resources\Shaders\Normal-Bumped.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Emis SH .shader" />
+     <None Include="Assets\Client\lua_config.txt" />
+     <None Include="Assets\Client\Resources\BundleList\ios\dynamicmainfest.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse VertexCol .shader" />
+     <None Include="Assets\Client\Resources\Shaders\CustomSkin.shader" />
+     <None Include="Assets\Client\DynamicResources\empty\empty.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Client\Resources\Shaders\CustomClipIconColorless.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis FogOff SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\RenderShadow.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Emis .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse SH .shader" />
+     <None Include="Assets\Client\Resources\BundleList\ios\staticmainfest.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse ZwriteOff .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloodBarbias.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT Upgrade from 4 to 5.txt" />
+     <None Include="Assets\Client\Dependence\Simple Sprite Packer\Changelog.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis Reflection Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\Simple Sprite Packer\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Emis SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Reflection Rim Xray SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\MaskColor.shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Client\Resources\Shaders\CustomLeaf.shader" />
+     <None Include="Assets\Client\Resources\Shaders\BloomBar.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Rim .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Reflection SH .shader" />
+     <None Include="Assets\Client\Resources\Shaders\CustomClipIcon.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Color Diffuse Rim SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Decal Reflection .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Color Diffuse Rim .shader" />
+     <None Include="Assets\Client\Resources\Shaders\toonoutline.shader" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Client\Dependence\Tolua\ToLua\readme.txt" />
+     <None Include="Assets\Client\Dependence\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Diffuse Emis FogOff .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Diffuse .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color Decal Reflection SH .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT AlphaCutout Diffuse Rim Xray .shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Color .shader" />
+     <None Include="Assets\Client\Dependence\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Client\Dependence\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Client\Dependence\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Client\Dependence\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUNLIT_TransparentNoZ.shader" />
+     <None Include="Assets\Client\Dependence\UNOShader\UNLIT\Shaders\Shader Library\UNOShaderUNLIT Transparent Color Diffuse ZwriteOff SH .shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.4.4p3/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>/Users/zhouwei/jiuyi/t7/trunk/client/luaClient/Assets/Client/Dependence/Tolua/Plugins/Debugger.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

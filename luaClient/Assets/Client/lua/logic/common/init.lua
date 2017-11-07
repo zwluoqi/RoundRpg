@@ -1,0 +1,5 @@
+require "logic/common/basemodel"
+require "logic/common/enumdefine"
+require "logic/common/fsmcontroller"
+require "logic/common/fsmstate"
+require "logic/common/commonutil"

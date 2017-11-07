@@ -1,0 +1,2 @@
+﻿open_lua_socket:1
+open_zbs_debugger:1
