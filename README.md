@@ -4,7 +4,10 @@
 | - | - | --- | --- | - |- |
 |![](nor.png)|![](enc.png)
 
-tools/xls2lua/xls2lua.py 用来数据表转lua<br>
-1.Python使用2.x  xlrd-0.9.3.tar插件<br>
-2.Tolua版本为2.6<br>
-3.Unity3d版本为5.4.4p3<br>
+| 分类 | 方案 | 细节 |
+| --- | - | --- |
+| 客户端 | - | --- |
+|  | 框架 | Tolua、战斗等 |
+|  | Unity3d | 5.4.4p3版本 |
+|  | Tolua | 2.6版本 |
+|  | Python2.x | xlrd-0.9.3.tar插件 |
